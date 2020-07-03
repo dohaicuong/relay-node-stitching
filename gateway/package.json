@@ -1,0 +1,17 @@
+{
+  "name": "gateway",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon index",
+    "start": "node index"
+  },
+  "dependencies": {
+    "apollo-server": "^2.15.1",
+    "graphql-add-middleware": "^0.3.7",
+    "graphql-tools": "^6.0.12",
+    "lodash": "^4.17.15",
+    "node-fetch": "^2.6.0"
+  }
+}
